@@ -39,7 +39,7 @@ easy to read on the web in a couple of ways:
 
 1. **Directly through their github web links.** Just click on the Github link,
    e.g. [chapter
-   0](https://github.com/tjd1234/cmpt120fall2024/blob/main/textbook/chap00.ipynb).
+   0](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap00.ipynb).
 2. **Using the [Jupyter notebook viewer](https://nbviewer.jupyter.org/).** Paste
    the github link into the viewer.
 3. **Use [Google Colab](https://colab.research.google.com/).** You will need a
@@ -50,33 +50,89 @@ easy to read on the web in a couple of ways:
    libraries you are likely to ever need, and you can run cells online.
 
 ### Week 1
-- Read this textbook chapter: [chapter 0](textbook/chap00.ipynb)
+- Read this textbook chapter: [chapter 0](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap00.ipynb)
+- Review these lecture notes:
+- Do this homework:
 
 ### Week 2
 
+- Read this textbook chapter: [chapter 1](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap01.ipynb)
+- Review these lecture notes:
+- Do this homework:
+
 ### Week 3
+
+- Read this textbook chapter: [chapter 2](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap02.ipynb)
+- Review these lecture notes:
+- Do this homework:
 
 ### Week 4
 
+- Read this textbook chapter: [chapter 3](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap03.ipynb)
+- Review these lecture notes:
+- Do this homework:
+
 ### Week 5
+
+- Read this textbook chapter: [chapter 4](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap04.ipynb)
+- Review these lecture notes:
+- Do this homework:
 
 ### Week 6
 
+- Read this textbook chapter: [chapter 5](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap05.ipynb)
+- Review these lecture notes:
+- Do this homework:
+
 ### Week 7
+
+Reading week: no labs or lectures this week
 
 ### Week 8
 
+- Read this textbook chapter: [chapter 6](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap06.ipynb)
+- Review these lecture notes:
+- Do this homework:
+
 ### Week 9
+
+- This week includes the topic of **while loops**. For some reason, the textbook
+  does not cover while-loops, so please see the lecture notes and PowerPoint
+  presentation.
+- Review these lecture notes:
+- Do this homework:
 
 ### Week 10
 
+- Midterm exam! See Canvas for details.
+- Read this textbook chapter: [chapter 7](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap07.ipynb)
+- Review these lecture notes:
+- Do this homework:
+
 ### Week 11
+
+- Read this textbook chapter: [chapter 8](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap08.ipynb)
+- Review these lecture notes:
+- Do this homework:
 
 ### Week 12
 
+- Read this textbook chapter: [chapter 9](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap09.ipynb)
+- Review these lecture notes:
+- Do this homework:
+
 ### Week 13
 
+- Read this textbook chapter: [chapter 10](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap10.ipynb)
+- Review these lecture notes:
+- Do this homework:
+
 ### Week 14
+
+- Read this textbook chapter: **none**
+- Algorithms week: linear search, binary search, sorting
+- Review these lecture notes:
+- Do this homework:
 
 ### Exam Period (April 12 to April 25)
 
