@@ -81,8 +81,8 @@ easy to read on the web in a couple of ways:
 ### Week 6
 
 - Read this textbook chapter: [chapter 5](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap05.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 5 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter5/chapter5_lecture.ipynb)
+- Do this homework: [chapter 5 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter5/homework5.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter5/homework5_sol.ipynb))
 
 ### Week 7
 
@@ -91,8 +91,8 @@ easy to read on the web in a couple of ways:
 ### Week 8
 
 - Read this textbook chapter: [chapter 6](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap06.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 6 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter6/chapter6_lecture.ipynb)
+- Do this homework: [chapter 6 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter6/homework6.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter6/homework6_sol.ipynb))
 
 ### Week 9
 
@@ -106,33 +106,32 @@ easy to read on the web in a couple of ways:
 
 - Midterm exam! See Canvas for details.
 - Read this textbook chapter: [chapter 7](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap07.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 7 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter7/chapter7_lecture.ipynb)
+- Do this homework: [chapter 7 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter7/homework7.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter7/homework7_sol.ipynb))
 
 ### Week 11
 
 - Read this textbook chapter: [chapter 8](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap08.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 8 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_lecture.ipynb)
+- Do this homework: [chapter 8 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8_sol.ipynb))
 
 ### Week 12
 
 - Read this textbook chapter: [chapter 9](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap09.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 9 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/chapter9_lecture.ipynb)
+- Do this homework: [chapter 9 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/homework9.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/homework9_sol.ipynb))
 
 ### Week 13
 
 - Read this textbook chapter: [chapter 10](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap10.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 10 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/chapter10_lecture.ipynb)
+- Do this homework: [chapter 10 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10_sol.ipynb))
 
 ### Week 14
 
 - Read this textbook chapter: **none**
-- Algorithms week: linear search, binary search, sorting
-- Review these lecture notes:
-- Do this homework:
+- Algorithms week: [linear search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search.ipynb), [binary search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search.ipynb), [sorting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting.ipynb)
+- Do this homework: [linear search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework_sol.ipynb)), [binary search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework_sol.ipynb)), [sorting homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_linear_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_linear_search_homework_sol.ipynb))
 
 ### Exam Period (April 12 to April 25)
 
