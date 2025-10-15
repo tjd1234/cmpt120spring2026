@@ -26,8 +26,8 @@ Due dates, marks, discussions, etc. are all on Canvas.
 - [In-class final exam practice questions Fall 2024](exams/120-fall2024_microfinal.pdf) ([solutions](exams/120-fall2024_microfinal_sol.pdf))
 - [Multiple choice practice questions](exams/120_MCQ_final_sample_1.pdf) ([solutions](exams/120_MCQ_final_sample_1_sol.pdf))
 
-Here is an [exam timer](https://tjd1234.github.io/examclock/examclock.html)
-that shows the remaining time in an exam.
+Here is an [exam timer](https://tjd1234.github.io/examclock/examclock.html) that
+shows the remaining time in an exam.
 
 ## Lecture Notes (Spring 2026)
 
@@ -44,21 +44,21 @@ easy to read on the web in a couple of ways:
    the github link into the viewer.
 3. **Use [Google Colab](https://colab.research.google.com/).** You will need a
    (free) Google account to use it. You can open notebooks interactively in
-   [Google Colab](https://colab.research.google.com/). You can save your own
-   copies in [Colab](https://colab.research.google.com/) that you can run and
-   edit. [Colab](https://colab.research.google.com/) provides all the Python
-   libraries you are likely to ever need, and you can run cells online.
+   [Google Colab](https://colab.research.google.com/). You can also save your
+   own copies in [Colab](https://colab.research.google.com/) that you can run
+   and edit. [Colab](https://colab.research.google.com/) provides all the Python
+   libraries you are likely to ever need, and you can run cells online in your web browser.
 
 ### Week 1
 - Read this textbook chapter: [chapter 0](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap00.ipynb)
-- Review these lecture notes:
+- Review these lecture notes: 
 - Do this homework:
 
 ### Week 2
 
 - Read this textbook chapter: [chapter 1](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap01.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 1 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter1/chapter1_lecture.ipynb)
+- Do this homework: [chapter 1 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter1/homework1.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter1/homework1_sol.ipynb))
 
 ### Week 3
 
@@ -86,7 +86,7 @@ easy to read on the web in a couple of ways:
 
 ### Week 7
 
-Reading week: no labs or lectures this week
+**Reading week**: no labs or lectures this week
 
 ### Week 8
 
@@ -138,9 +138,10 @@ Reading week: no labs or lectures this week
 
 See the Canvas website for the final exam details.
 
----
+---------
 
 old stuff
+
 ---------
 
 ### Week 1 (Sept 2 to Sept 6)
