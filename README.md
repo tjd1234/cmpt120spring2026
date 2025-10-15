@@ -63,20 +63,20 @@ easy to read on the web in a couple of ways:
 ### Week 3
 
 - Read this textbook chapter: [chapter 2](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap02.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 2 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter2/chapter2_lecture.ipynb)
+- Do this homework: [chapter 2 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter2/homework2.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter2/homework2_sol.ipynb))
 
 ### Week 4
 
 - Read this textbook chapter: [chapter 3](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap03.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 3 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter3/chapter3_lecture.ipynb)
+- Do this homework: [chapter 3 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter3/homework3.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter3/homework3_sol.ipynb))
 
 ### Week 5
 
 - Read this textbook chapter: [chapter 4](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap04.ipynb)
-- Review these lecture notes:
-- Do this homework:
+- Review these lecture notes: [chapter 4 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter4/chapter4_lecture.ipynb)
+- Do this homework: [chapter 4 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter4/homework4.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter4/homework4_sol.ipynb))
 
 ### Week 6
 
