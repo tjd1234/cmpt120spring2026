@@ -1,6 +1,7 @@
 # CMPT 120, Spring 2026
 
-Due dates, marks, discussions, etc. are all on Canvas.
+Due dates, marks, discussions, etc. are all on Canvas. The repository for this
+course is [here](https://github.com/tjd1234/cmpt120spring2026).
 
 ## Assignments
 
