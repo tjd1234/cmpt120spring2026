@@ -49,7 +49,7 @@ easy to read on the web in a couple of ways:
 
 ### Week 1 (Jan 5 to Jan 9)
 - Read this textbook chapter: [chapter 0][chp0-textbook]
-- Introductory slides: [introduction](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/introduction/introduction.pptx)
+- Introductory slides: [introduction 1](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/introduction/introduction1.pptx), [introduction 2](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/introduction/introduction2.pptx)
 - Write the weekly Canvas quiz on Friday!
 
 ### Week 2 (Jan 12 to Jan 16)
