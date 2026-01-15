@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Boolean Quiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 25px 40px;
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+
+        .score {
+            text-align: center;
+            font-size: 1.1em;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .expression-container {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .expression {
+            font-family: 'Courier New', monospace;
+            font-size: 1.5em;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            flex: 1;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .btn-true {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-true:hover {
+            background: #218838;
+        }
+
+        .btn-false {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-false:hover {
+            background: #c82333;
+        }
+
+        .btn-next {
+            background: #667eea;
+            color: white;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .btn-next:hover {
+            background: #5568d3;
+        }
+
+        .feedback {
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            font-weight: 600;
+            display: none;
+        }
+
+        .feedback.correct {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #c3e6cb;
+        }
+
+        .feedback.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #f5c6cb;
+        }
+
+        .feedback.show {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .btn-start, .btn-play-again {
+            background: #667eea;
+            color: white;
+            width: 100%;
+            padding: 20px;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        .btn-start:hover, .btn-play-again:hover {
+            background: #5568d3;
+        }
+
+        .timer {
+            text-align: center;
+            font-size: 1.2em;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .question-counter {
+            text-align: center;
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .screen {
+            display: none;
+        }
+
+        .screen.active {
+            display: block;
+        }
+
+        .start-screen, .finished-screen {
+            text-align: center;
+        }
+
+        .finished-screen h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .results {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .result-item {
+            font-size: 1.3em;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .result-item-inline {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .result-label {
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .histogram-container {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+        }
+
+        .histogram-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .histogram {
+            display: flex;
+            justify-content: space-around;
+            gap: 8px;
+            padding: 10px 0 0 0;
+        }
+        
+        .histogram-bars-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            gap: 8px;
+            width: 100%;
+        }
+
+        .histogram-bar {
+            width: 100%;
+            background: linear-gradient(to top, #667eea, #764ba2);
+            border-radius: 4px 4px 0 0;
+            min-width: 30px;
+            position: relative;
+            transition: opacity 0.3s ease;
+        }
+
+        .histogram-bar:hover {
+            opacity: 0.8;
+        }
+
+        .histogram-label {
+            font-size: 0.85em;
+            color: #666;
+            white-space: nowrap;
+            margin-top: 8px;
+            margin-bottom: 0;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .histogram-bar-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            min-width: 30px;
+        }
+        
+        .histogram-bar-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            height: 200px;
+            justify-content: flex-end;
+            flex-shrink: 0;
+            margin-bottom: 0;
+        }
+
+        .histogram-expression {
+            margin-top: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.75em;
+            color: #333;
+            text-align: center;
+            max-width: 150px;
+            word-break: break-word;
+            line-height: 1.2;
+        }
+
+        .histogram-answer {
+            margin-top: 5px;
+            font-size: 0.85em;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .histogram-answer.correct {
+            color: #28a745;
+        }
+
+        .histogram-answer.incorrect {
+            color: #dc3545;
+        }
+
+        .histogram-value {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+
+        .seed-input-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .seed-input-container label {
+            display: block;
+            margin-bottom: 8px;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .seed-input-container input {
+            padding: 10px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1em;
+            width: 200px;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+        }
+
+        .seed-input-container select {
+            padding: 10px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1em;
+            width: 120px;
+        }
+
+        .seed-input-container input:focus,
+        .seed-input-container select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div class="screen active start-screen" id="startScreen">
+            <h1 id="startTitle">🐍 Python Boolean Quiz</h1>
+            <p class="subtitle" id="startSubtitle">Test your Python boolean expression knowledge!</p>
+            <p style="margin: 30px 0; color: #666; font-size: 1.1em;">
+                Evaluate each boolean expression and select True or False.
+            </p>
+            <div class="seed-input-container">
+                <div style="display: flex; align-items: center; gap: 10px; justify-content: center; margin-bottom: 15px;">
+                    <label for="notationSelect" style="display: inline-block; margin-bottom: 0; color: #666; font-size: 0.95em;">Notation:</label>
+                    <select id="notationSelect">
+                        <option value="python">Python</option>
+                        <option value="cpp">C++</option>
+                    </select>
+                </div>
+                <label for="seedInput">Random Seed (optional):</label>
+                <input type="text" id="seedInput">
+                <p style="margin-top: 8px; font-size: 0.85em; color: #999;">
+                    Use the same seed to get the same questions
+                </p>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 30px;">
+                <button class="btn-start" onclick="startGame()">Game Mode (5 Questions, Timed)</button>
+                <button class="btn-start" onclick="startPracticeMode()" style="background: #28a745;">Practice Mode (Unlimited, No Timer)</button>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div class="screen game-screen" id="gameScreen">
+            <h1 id="gameTitle">🐍 Python Boolean Quiz</h1>
+            <div id="modeIndicator" style="text-align: center; color: #667eea; font-weight: 600; margin-bottom: 5px; font-size: 0.95em;"></div>
+            <div class="question-counter" id="questionCounter">
+                Question <span id="questionNumber">1</span><span id="questionLimit"> / 5</span>
+            </div>
+            <div class="timer" id="timerContainer">
+                Time: <span id="timer">0.0</span>s
+            </div>
+            
+            <div class="score">
+                Score: <span id="score">0</span> / <span id="total">0</span> (<span id="percentage">0</span>%)
+            </div>
+
+            <div class="expression-container">
+                <div class="expression" id="expression"></div>
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+
+            <div class="buttons">
+                <button class="btn-true" id="btnTrue" onclick="checkAnswer(true)">True</button>
+                <button class="btn-false" id="btnFalse" onclick="checkAnswer(false)">False</button>
+            </div>
+
+            <button class="btn-next" id="btnNext" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            <button class="btn-next" id="btnBackToStart" onclick="resetGame()" style="display: none; background: #6c757d; margin-top: 10px;">Back to Start</button>
+        </div>
+
+        <!-- Finished Screen -->
+        <div class="screen finished-screen" id="finishedScreen">
+            <h2>🎉 Game Complete!</h2>
+            <div class="results">
+                <div class="result-item result-item-inline">
+                    <span class="result-label">Score:</span> <span id="finalScore">0</span> / 5
+                    <span class="result-label">Accuracy:</span> <span id="finalPercentage">0</span>%
+                </div>
+                <div class="result-item result-item-inline">
+                    <span class="result-label">Total Time:</span> <span id="finalTime">0.0</span>s
+                    <span class="result-label">Average Time per Question:</span> <span id="avgTime">0.0</span>s
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Seed:</span> <span id="finalSeed" style="font-family: 'Courier New', monospace;">-</span>
+                </div>
+            </div>
+            <div class="histogram-container" id="histogramContainer" style="display: none;">
+                <div class="histogram-title">Time per Question</div>
+                <div class="histogram" id="histogram"></div>
+            </div>
+            <button class="btn-play-again" onclick="resetGame()">Play Again</button>
+        </div>
+    </div>
+
+    <script>
+        let currentExpression = '';
+        let currentAnswer = null;
+        let score = 0;
+        let total = 0;
+        let answered = false;
+        let generatedExpressions = new Set(); // Track generated expressions to avoid duplicates
+        let gameState = 'start'; // 'start', 'playing', 'finished'
+        let startTime = null;
+        let timerInterval = null;
+        let currentTime = 0;
+        let questionNumber = 0;
+        let practiceMode = false;
+        let currentSeed = null;
+        let seededRandom = null;
+        let questionStartTime = null;
+        let questionTimes = []; // Array to store time per question
+        let questionData = []; // Array to store expression and answer correctness for each question
+        const TOTAL_QUESTIONS = 5;
+        let notationType = 'python'; // 'python' or 'cpp'
+
+        // Seeded random number generator (Mulberry32)
+        function createSeededRandom(seed) {
+            return function() {
+                let t = seed += 0x6D2B79F5;
+                t = Math.imul(t ^ t >>> 15, t | 1);
+                t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+                return ((t ^ t >>> 14) >>> 0) / 4294967296;
+            };
+        }
+
+        // Get a random number (uses seeded RNG if available, otherwise Math.random)
+        function getRandom() {
+            if (seededRandom) {
+                return seededRandom();
+            }
+            return Math.random();
+        }
+
+        // Initialize seed from user input or generate one
+        function initializeSeed() {
+            const seedInput = document.getElementById('seedInput').value.trim();
+            if (seedInput) {
+                // Use user-provided seed (convert string to number)
+                currentSeed = seedInput;
+                // Create a hash from the string seed for consistent RNG
+                let hash = 0;
+                for (let i = 0; i < seedInput.length; i++) {
+                    const char = seedInput.charCodeAt(i);
+                    hash = ((hash << 5) - hash) + char;
+                    hash = hash & hash; // Convert to 32-bit integer
+                }
+                seededRandom = createSeededRandom(Math.abs(hash));
+            } else {
+                // Generate a random seed
+                currentSeed = Math.floor(Math.random() * 1000000).toString();
+                seededRandom = createSeededRandom(parseInt(currentSeed));
+            }
+        }
+
+        // Helper function to check if a string is already wrapped in parentheses
+        function isWrappedInParens(expr) {
+            if (!expr.startsWith('(') || !expr.endsWith(')')) {
+                return false;
+            }
+            let depth = 0;
+            for (let i = 0; i < expr.length; i++) {
+                if (expr[i] === '(') depth++;
+                else if (expr[i] === ')') depth--;
+                if (depth === 0 && i < expr.length - 1) {
+                    return false;
+                }
+            }
+            return depth === 0;
+        }
+
+        // Helper function to convert Python notation to C++ notation
+        function toCppNotation(expr) {
+            // Replace 'not ' (with space) to '!' (no space) - this handles unary not
+            let result = expr.replace(/not /g, '!');
+            // Replace other operators and literals
+            result = result
+                .replace(/\bTrue\b/g, 'true')
+                .replace(/\bFalse\b/g, 'false')
+                .replace(/\band\b/g, '&&')
+                .replace(/\bor\b/g, '||');
+            return result;
+        }
+
+        // Helper function to get the true/false literal for current notation
+        function getTrueLiteral() {
+            return notationType === 'python' ? 'True' : 'true';
+        }
+
+        function getFalseLiteral() {
+            return notationType === 'python' ? 'False' : 'false';
+        }
+
+        // Helper function to get the not operator for current notation
+        function getNotOperator() {
+            return notationType === 'python' ? 'not' : '!';
+        }
+
+        // Helper function to get the and operator for current notation
+        function getAndOperator() {
+            return notationType === 'python' ? 'and' : '&&';
+        }
+
+        // Helper function to get the or operator for current notation
+        function getOrOperator() {
+            return notationType === 'python' ? 'or' : '||';
+        }
+
+        // Helper function to check if expression starts with not operator
+        function startsWithNot(expr) {
+            if (notationType === 'python') {
+                return expr.startsWith('not ');
+            } else {
+                return expr.startsWith('!');
+            }
+        }
+
+        // Helper function to remove not operator from start
+        function removeNotFromStart(expr) {
+            if (notationType === 'python') {
+                if (expr.startsWith('not ')) {
+                    return expr.substring(4);
+                }
+            } else {
+                if (expr.startsWith('!')) {
+                    return expr.substring(1);
+                }
+            }
+            return expr;
+        }
+
+        // Helper function to wrap expression in parentheses only if needed
+        function wrapIfNeeded(expr) {
+            // If it's already wrapped, don't wrap again
+            if (isWrappedInParens(expr)) {
+                return expr;
+            }
+            // If it's a literal, don't wrap
+            const trueLit = getTrueLiteral();
+            const falseLit = getFalseLiteral();
+            if (expr === trueLit || expr === falseLit) {
+                return expr;
+            }
+            // If it's a simple 'not' on a literal, don't wrap
+            const notOp = getNotOperator();
+            if (notationType === 'python') {
+                if (expr.startsWith('not ') && (expr === `not ${trueLit}` || expr === `not ${falseLit}`)) {
+                    return expr;
+                }
+            } else {
+                if (expr.startsWith('!') && (expr === `!${trueLit}` || expr === `!${falseLit}`)) {
+                    return expr;
+                }
+            }
+            // Otherwise, wrap it
+            return `(${expr})`;
+        }
+
+        // Generate a random boolean expression with at most 4 operators
+        function generateExpression() {
+            const operators = ['and', 'or', 'not'];
+            
+            // Randomly decide how many operators to use (1 to 4)
+            const numOperators = Math.floor(getRandom() * 4) + 1;
+            
+            // Build expression recursively (always in Python notation first, then convert if needed)
+            function buildExpression(remainingOps) {
+                if (remainingOps === 0) {
+                    // Base case: return a random literal
+                    return getRandom() < 0.5 ? 'True' : 'False';
+                }
+                
+                const op = operators[Math.floor(getRandom() * operators.length)];
+                
+                if (op === 'not') {
+                    // 'not' is unary, so it takes one operand
+                    const operand = buildExpression(remainingOps - 1);
+                    // Avoid double negation for simplicity
+                    if (operand.startsWith('not ')) {
+                        return operand.substring(4);
+                    }
+                    // Wrap in parentheses only if needed (compound expression)
+                    if (operand === 'True' || operand === 'False') {
+                        return `not ${operand}`;
+                    }
+                    // For compound expressions, wrap only if not already wrapped
+                    return `not ${wrapIfNeeded(operand)}`;
+                } else {
+                    // 'and' and 'or' are binary
+                    // Distribute remaining operators between left and right
+                    const leftOps = Math.max(0, Math.floor(getRandom() * remainingOps));
+                    const rightOps = remainingOps - 1 - leftOps;
+                    
+                    const left = buildExpression(leftOps);
+                    const right = buildExpression(rightOps);
+                    
+                    // Wrap operands only if they need it
+                    const wrappedLeft = wrapIfNeeded(left);
+                    const wrappedRight = wrapIfNeeded(right);
+                    
+                    return `(${wrappedLeft} ${op} ${wrappedRight})`;
+                }
+            }
+            
+            let expr = buildExpression(numOperators);
+            // Remove outer parentheses if the whole expression is wrapped
+            if (isWrappedInParens(expr)) {
+                expr = expr.substring(1, expr.length - 1);
+            }
+            
+            // Convert to C++ notation if needed
+            if (notationType === 'cpp') {
+                expr = toCppNotation(expr);
+            }
+            
+            return expr;
+        }
+
+        // Evaluate a boolean expression safely (supports both Python and C++ notation)
+        function evaluateExpression(expr) {
+            try {
+                let jsExpr = expr;
+                
+                if (notationType === 'python') {
+                    // Replace Python boolean literals with JavaScript
+                    jsExpr = expr
+                        .replace(/True/g, 'true')
+                        .replace(/False/g, 'false')
+                        .replace(/\band\b/g, '&&')
+                        .replace(/\bor\b/g, '||')
+                        .replace(/\bnot\b/g, '!');
+                } else {
+                    // C++ notation - already uses JavaScript-compatible syntax
+                    // Just ensure true/false are lowercase (they should be)
+                    jsExpr = expr
+                        .replace(/True/g, 'true')
+                        .replace(/False/g, 'false');
+                }
+                
+                // Evaluate safely
+                return eval(jsExpr);
+            } catch (e) {
+                console.error('Error evaluating expression:', e);
+                return null;
+            }
+        }
+
+        function showScreen(screenName) {
+            document.getElementById('startScreen').classList.remove('active');
+            document.getElementById('gameScreen').classList.remove('active');
+            document.getElementById('finishedScreen').classList.remove('active');
+            document.getElementById(screenName + 'Screen').classList.add('active');
+        }
+
+        function startTimer() {
+            startTime = Date.now();
+            timerInterval = setInterval(() => {
+                currentTime = (Date.now() - startTime) / 1000;
+                document.getElementById('timer').textContent = currentTime.toFixed(1);
+            }, 100);
+        }
+
+        function stopTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
+
+        function startGame() {
+            // Get notation type from dropdown
+            notationType = document.getElementById('notationSelect').value;
+            initializeSeed();
+            practiceMode = false;
+            gameState = 'playing';
+            score = 0;
+            total = 0;
+            questionNumber = 0;
+            currentTime = 0;
+            questionTimes = [];
+            questionData = [];
+            questionStartTime = null;
+            generatedExpressions.clear();
+            showScreen('game');
+            updateGameUI();
+            startTimer();
+            newQuestion();
+        }
+
+        function startPracticeMode() {
+            // Get notation type from dropdown
+            notationType = document.getElementById('notationSelect').value;
+            initializeSeed();
+            practiceMode = true;
+            gameState = 'playing';
+            score = 0;
+            total = 0;
+            questionNumber = 0;
+            currentTime = 0;
+            questionTimes = [];
+            questionData = [];
+            questionStartTime = null;
+            generatedExpressions.clear();
+            showScreen('game');
+            updateGameUI();
+            newQuestion();
+        }
+
+        function updateGameUI() {
+            // Update title based on notation
+            const gameTitle = document.getElementById('gameTitle');
+            if (notationType === 'cpp') {
+                gameTitle.textContent = '⚙️ C++ Boolean Quiz';
+            } else {
+                gameTitle.textContent = '🐍 Python Boolean Quiz';
+            }
+            
+            const modeIndicator = document.getElementById('modeIndicator');
+            const questionCounter = document.getElementById('questionCounter');
+            const questionLimit = document.getElementById('questionLimit');
+            const timerContainer = document.getElementById('timerContainer');
+            const btnBackToStart = document.getElementById('btnBackToStart');
+            
+            if (practiceMode) {
+                modeIndicator.textContent = 'Practice Mode';
+                questionCounter.style.display = 'block';
+                questionLimit.style.display = 'none';
+                timerContainer.style.display = 'none';
+                btnBackToStart.style.display = 'block';
+            } else {
+                modeIndicator.textContent = '';
+                questionCounter.style.display = 'block';
+                questionLimit.style.display = 'inline';
+                timerContainer.style.display = 'block';
+                btnBackToStart.style.display = 'none';
+            }
+        }
+
+        function renderHistogram(times) {
+            if (times.length === 0) return;
+            
+            const container = document.getElementById('histogram');
+            container.innerHTML = '';
+            
+            const maxTime = Math.max(...times);
+            const maxHeight = 180; // Maximum bar height in pixels
+            
+            // Create a row for bars that will align at the bottom
+            const barsRow = document.createElement('div');
+            barsRow.className = 'histogram-bars-row';
+            
+            times.forEach((time, index) => {
+                const barContainer = document.createElement('div');
+                barContainer.className = 'histogram-bar-container';
+                
+                const barWrapper = document.createElement('div');
+                barWrapper.className = 'histogram-bar-wrapper';
+                
+                const bar = document.createElement('div');
+                bar.className = 'histogram-bar';
+                const height = maxTime > 0 ? (time / maxTime) * maxHeight : 0;
+                bar.style.height = `${height}px`;
+                
+                const valueLabel = document.createElement('div');
+                valueLabel.className = 'histogram-value';
+                valueLabel.textContent = time.toFixed(1) + 's';
+                bar.appendChild(valueLabel);
+                
+                barWrapper.appendChild(bar);
+                barContainer.appendChild(barWrapper);
+                
+                // Add question label (Q1, Q2, etc.) below the bar
+                const questionLabel = document.createElement('div');
+                questionLabel.className = 'histogram-label';
+                questionLabel.textContent = `Q${index + 1}`;
+                barContainer.appendChild(questionLabel);
+                
+                // Add expression if available
+                if (questionData[index] && questionData[index].expression) {
+                    const exprLabel = document.createElement('div');
+                    exprLabel.className = 'histogram-expression';
+                    exprLabel.textContent = questionData[index].expression;
+                    barContainer.appendChild(exprLabel);
+                }
+                
+                // Add answer if available
+                if (questionData[index] && questionData[index].answer !== undefined) {
+                    const answerLabel = document.createElement('div');
+                    answerLabel.className = 'histogram-answer';
+                    answerLabel.classList.add(questionData[index].isCorrect ? 'correct' : 'incorrect');
+                    answerLabel.textContent = questionData[index].answer ? 'True' : 'False';
+                    barContainer.appendChild(answerLabel);
+                }
+                
+                barsRow.appendChild(barContainer);
+            });
+            
+            container.appendChild(barsRow);
+            document.getElementById('histogramContainer').style.display = 'block';
+        }
+
+        function finishGame() {
+            gameState = 'finished';
+            stopTimer();
+            const finalTime = currentTime;
+            const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
+            const avgTime = total > 0 ? (finalTime / total).toFixed(1) : 0;
+            
+            document.getElementById('finalScore').textContent = score;
+            document.getElementById('finalPercentage').textContent = percentage;
+            document.getElementById('finalTime').textContent = finalTime.toFixed(1);
+            document.getElementById('avgTime').textContent = avgTime;
+            document.getElementById('finalSeed').textContent = currentSeed || '-';
+            
+            // Render histogram if we have question times
+            if (questionTimes.length > 0) {
+                renderHistogram(questionTimes);
+            } else {
+                document.getElementById('histogramContainer').style.display = 'none';
+            }
+            
+            showScreen('finished');
+        }
+
+        function resetGame() {
+            gameState = 'start';
+            practiceMode = false;
+            score = 0;
+            total = 0;
+            questionNumber = 0;
+            currentTime = 0;
+            answered = false;
+            currentSeed = null;
+            seededRandom = null;
+            questionTimes = [];
+            questionData = [];
+            questionStartTime = null;
+            generatedExpressions.clear();
+            stopTimer();
+            document.getElementById('seedInput').value = '';
+            showScreen('start');
+        }
+
+        function newQuestion() {
+            // Record time for previous question if we have a start time
+            if (questionStartTime !== null && !practiceMode) {
+                const questionTime = (Date.now() - questionStartTime) / 1000;
+                questionTimes.push(questionTime);
+            }
+            
+            // Set start time for this question
+            if (!practiceMode) {
+                questionStartTime = Date.now();
+            }
+            
+            if (!practiceMode) {
+                questionNumber++;
+                document.getElementById('questionNumber').textContent = questionNumber;
+            } else {
+                questionNumber++;
+                // In practice mode, just show the question number without limit
+                document.getElementById('questionNumber').textContent = questionNumber;
+            }
+            
+            // Generate a unique expression (avoid duplicates)
+            let maxAttempts = 100; // Prevent infinite loop
+            let attempts = 0;
+            do {
+                currentExpression = generateExpression();
+                attempts++;
+                if (attempts >= maxAttempts) {
+                    // If we've exhausted unique expressions, reset the set
+                    generatedExpressions.clear();
+                    break;
+                }
+            } while (generatedExpressions.has(currentExpression));
+            
+            // Add to set of generated expressions
+            generatedExpressions.add(currentExpression);
+            currentAnswer = evaluateExpression(currentExpression);
+            document.getElementById('expression').textContent = currentExpression;
+            document.getElementById('feedback').classList.remove('show');
+            document.getElementById('btnTrue').style.display = 'block';
+            document.getElementById('btnFalse').style.display = 'block';
+            document.getElementById('btnNext').style.display = 'none';
+            answered = false;
+        }
+
+        function updateScore() {
+            document.getElementById('score').textContent = score;
+            document.getElementById('total').textContent = total;
+            const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
+            document.getElementById('percentage').textContent = percentage;
+        }
+
+        function checkAnswer(userAnswer) {
+            if (answered || gameState !== 'playing') return;
+            
+            // Stop timer immediately if this is the final question
+            if (!practiceMode && questionNumber >= TOTAL_QUESTIONS) {
+                stopTimer();
+            }
+            
+            // Record time for this question
+            if (questionStartTime !== null && !practiceMode) {
+                const questionTime = (Date.now() - questionStartTime) / 1000;
+                questionTimes.push(questionTime);
+                questionStartTime = null; // Reset for next question
+            }
+            
+            answered = true;
+            total++;
+            
+            const isCorrect = userAnswer === currentAnswer;
+            
+            // Store question data for histogram
+            if (!practiceMode) {
+                questionData.push({
+                    expression: currentExpression,
+                    answer: userAnswer,
+                    isCorrect: isCorrect
+                });
+            }
+            const feedback = document.getElementById('feedback');
+            
+            if (isCorrect) {
+                score++;
+                feedback.textContent = '✓ Correct!';
+                feedback.className = 'feedback correct show';
+            } else {
+                feedback.textContent = `✗ Incorrect! The answer is ${currentAnswer ? 'True' : 'False'}.`;
+                feedback.className = 'feedback incorrect show';
+            }
+            
+            updateScore();
+            document.getElementById('btnTrue').style.display = 'none';
+            document.getElementById('btnFalse').style.display = 'none';
+            
+            // Check if we've completed all questions (only in game mode)
+            if (!practiceMode && questionNumber >= TOTAL_QUESTIONS) {
+                document.getElementById('btnNext').style.display = 'none';
+                // Small delay before showing results
+                setTimeout(() => {
+                    finishGame();
+                }, 1500);
+            } else {
+                document.getElementById('btnNext').style.display = 'block';
+            }
+        }
+
+        function nextQuestion() {
+            if (gameState !== 'playing') return;
+            if (!practiceMode && questionNumber >= TOTAL_QUESTIONS) {
+                finishGame();
+            } else {
+                newQuestion();
+            }
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(event) {
+            // Don't trigger shortcuts when typing in input fields
+            if (event.target.tagName === 'INPUT') {
+                return;
+            }
+
+            // Only handle shortcuts when in game screen and playing
+            if (gameState !== 'playing') {
+                return;
+            }
+
+            const key = event.key.toLowerCase();
+            
+            // T for True, F for False
+            if (key === 't' || key === 'f') {
+                const btnTrue = document.getElementById('btnTrue');
+                const btnFalse = document.getElementById('btnFalse');
+                
+                // Only trigger if buttons are visible (not set to 'none')
+                if (btnTrue.style.display !== 'none' && btnFalse.style.display !== 'none') {
+                    event.preventDefault();
+                    if (key === 't') {
+                        checkAnswer(true);
+                    } else if (key === 'f') {
+                        checkAnswer(false);
+                    }
+                }
+            }
+            
+            // Enter or Space for Next Question
+            if (key === 'enter' || key === ' ') {
+                const btnNext = document.getElementById('btnNext');
+                
+                // Only trigger if Next button is visible (not set to 'none')
+                if (btnNext.style.display !== 'none') {
+                    event.preventDefault();
+                    nextQuestion();
+                }
+            }
+        });
+
+        // Update start screen title based on notation selection
+        function updateStartScreenTitle() {
+            const notationSelect = document.getElementById('notationSelect');
+            const startTitle = document.getElementById('startTitle');
+            const startSubtitle = document.getElementById('startSubtitle');
+            
+            if (notationSelect.value === 'cpp') {
+                startTitle.textContent = '⚙️ C++ Boolean Quiz';
+                startSubtitle.textContent = 'Test your C++ boolean expression knowledge!';
+            } else {
+                startTitle.textContent = '🐍 Python Boolean Quiz';
+                startSubtitle.textContent = 'Test your Python boolean expression knowledge!';
+            }
+        }
+
+        // Add event listener to notation dropdown
+        document.getElementById('notationSelect').addEventListener('change', updateStartScreenTitle);
+
+        // Initialize - show start screen
+        showScreen('start');
+    </script>
+</body>
+</html>

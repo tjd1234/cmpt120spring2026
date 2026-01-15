@@ -29,6 +29,12 @@ course is [here](https://github.com/tjd1234/cmpt120spring2026).
 Here is an [exam timer](https://tjd1234.github.io/examclock/examclock.html) that
 shows the remaining time in an exam.
 
+## Other Links
+
+[Boolean Expression Quiz](bool_quiz.html) is a [vibe
+coded](https://en.wikipedia.org/wiki/Vibe_coding) web app that tests you
+practice evaluating boolean expressions.
+
 ## Lecture Notes (Spring 2026)
 
 Most of the notes are in [Jupyter notebooks](https://jupyter.org/). [See here
