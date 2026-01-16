@@ -1,17 +1,4 @@
-# homework1_sol.py
-
-#
-# Question 1
-# Print exactly this on the screen:
-#
-# \n \t \\ \' \" are escape characters
-#
-print('Question 1')
-print('Solution 1: single-quoted string')
-print('\\n \\t \\\\ \\\' \\\" are escape characters')
-print()
-print('Solution 2: double-quoted string')
-print("\\n \\t \\\\ \\\' \\\" are escape characters")
+# hq2.py
 
 #
 # Question 2
@@ -26,8 +13,8 @@ print("\\n \\t \\\\ \\\' \\\" are escape characters")
 #
 # Try to do it with as few print statements as possible.
 #
-print()
 print('Question 2')
+print()
 print('Solution 1: multiple print statements')
 print('\\    /')
 print(' \\  /')
