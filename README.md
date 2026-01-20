@@ -6,6 +6,7 @@ course is [here](https://github.com/tjd1234/cmpt120spring2026).
 ## Assignments
 
 - [Assignment 1](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a1/a1.ipynb)
+= [Assignment 2](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a2/a2.ipynb)
 - Assignment 3
 - Assignment 4
 - Assignment 5
