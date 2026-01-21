@@ -1,8 +1,28 @@
 # demo.py
 
-import math
+# def hello(name):
+name = "Alice"
+print(f"Hello, {name}!")
+print("How's things?")
 
-pi = math.pi
+# a = 1
+# b = 'cat'
+# c = 3.14
 
-print(pi)
-print(pi ** 2)
+# multiple assignment
+a, b, c = 1, "cat", 3.14
+
+# print results
+print(a)
+print(b)
+
+# swaps a and b using multiple assignment
+a, b = b, a
+
+# swaps a and b
+# temp = a
+# a = b
+# b = temp
+
+print(a)
+print(b)
