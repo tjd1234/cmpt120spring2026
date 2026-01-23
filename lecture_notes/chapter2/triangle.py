@@ -1,16 +1,27 @@
 # triangle.py
 
+#
+# This program calculates the hypotenuse of a right triangle
+# given the lengths of the two sides:
+#
+#      |\
+#      | \
+#      |  \
+#    a |   \  hypotenuse = sqrt(a ** 2 + b ** 2)
+#      |    \
+#      |     \
+#      +------+
+#         b
+#
+
 import math
 
-# set the length of side 1 of the right triangle
-side1 = 3
+# get the sides of the triangle
+a = 3
+b = 4
 
-# set the length of side 2 of the right triangle
-side2 = 4
-
-# calculate the hypotenuse of the triangle using 
-# the Pythagorean theorem
-hypotenuse = math.sqrt(side1 ** 2 + side2 ** 2)
+# calculate the hypotenuse of the triangle using the Pythagorean theorem
+hypotenuse = math.sqrt(a ** 2 + b ** 2)
 
 # print the results
 print(hypotenuse)
