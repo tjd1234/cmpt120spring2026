@@ -1,28 +1,10 @@
 # demo.py
 
-# def hello(name):
-name = "Alice"
-print(f"Hello, {name}!")
-print("How's things?")
+a = 3
+b = a * str(a)  # 3 * str(3) == 3 * '3' == '333'
+b = len(b) + 3  # len('333') + 3 == 3 + 3 == 6
 
-# a = 1
-# b = 'cat'
-# c = 3.14
+print(abs(a-b)) # abs(3-6) == abs(-3) == 3
 
-# multiple assignment
-a, b, c = 1, "cat", 3.14
-
-# print results
-print(a)
-print(b)
-
-# swaps a and b using multiple assignment
-a, b = b, a
-
-# swaps a and b
-# temp = a
-# a = b
-# b = temp
-
-print(a)
-print(b)
+# a: 3
+# b: 6
