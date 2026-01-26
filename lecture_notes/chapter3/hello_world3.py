@@ -3,6 +3,6 @@
 def hello_world(greeting, name):
     print(f"{greeting}, {name}!")
 
-greeting = input("What is your greeting? ")
-name = input("What is your name? ")
-hello_world(greeting, name)
+g = input("What is your greeting? ")
+n = input("What is your name? ")
+hello_world(g, n)

@@ -1,9 +1,10 @@
 # sandwich.py
 
 def sandwich(text):
-    print('-' * len(text))
+    line = '-' * len(text)
+    print(line)
     print(text)
-    print('-' * len(text))
+    print(line)
 
 text = input('What text do you want to sandwich? ')
 sandwich(text)

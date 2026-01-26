@@ -8,6 +8,7 @@
 - [box1.py](box1.py) (a function that prints a box around a given string)
 - [box2.py](box2.py) (like box1.py, but uses a local variable to store the length of the string)
 - [box3.py](box3.py) (like box2.py, but uses another local variable to store the line)
+- [circles.py](circles.py) (uses a function and turtle graphics to draw circles)
 
 - [count_up.py](count_up.py) (counts up from 0 to 10)
 - [count_by_5.py](count_up_by_3.py) (from 0 to 10 by 3s)
