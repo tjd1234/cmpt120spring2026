@@ -20,3 +20,4 @@
 - [dist.py](dist.py) (using a function, prints the distance between two points)
 - [harmonic_sum.py](harmonic_sum.py) (prints the sum of the harmonic series using a for-loop in a function)
 - [factorial.py](factorial.py) (prints the factorial of a number using a for-loop in a function)
+- [print_in_box.py](print_in_box.py) (use a function, for-loop, and helper function to print numbers in boxes)

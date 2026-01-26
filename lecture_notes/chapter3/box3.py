@@ -2,7 +2,7 @@
 
 def box(text):
     n = len(text)
-    line = '+' + '-' * n + '-+'
+    line = '+-' + '-' * n + '-+'
     print(line)
     print('| ' + text + ' |')
     print(line)
