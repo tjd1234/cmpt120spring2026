@@ -13,5 +13,10 @@
 - [count_by_5.py](count_up_by_3.py) (from 0 to 10 by 3s)
 - [count_down.py](count_down.py) (counts down from 10 to 1 using a for-loop)
 - [count_down_by_3.py](count_down_by_3.py) (counts down from 10 to 1 by 3s using a for-loop)
+
 - [sum.py](sum.py) (sums the index values of a for-loop)
 - [fib.py](fib.py) (prints the Fibonacci numbers using a for-loop)
+
+- [dist.py](dist.py) (using a function, prints the distance between two points)
+- [harmonic_sum.py](harmonic_sum.py) (prints the sum of the harmonic series using a for-loop in a function)
+- [factorial.py](factorial.py) (prints the factorial of a number using a for-loop in a function)
