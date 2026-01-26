@@ -18,6 +18,9 @@
 - [sum.py](sum.py) (sums the index values of a for-loop)
 - [fib.py](fib.py) (prints the Fibonacci numbers using a for-loop)
 
+- [square.py](square.py) (prints a square of stars)
+- [triangle.py](triangle.py) (prints a triangle of stars)
+
 - [dist.py](dist.py) (using a function, prints the distance between two points)
 - [harmonic_sum.py](harmonic_sum.py) (prints the sum of the harmonic series using a for-loop in a function)
 - [factorial.py](factorial.py) (prints the factorial of a number using a for-loop in a function)
