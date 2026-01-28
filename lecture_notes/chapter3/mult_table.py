@@ -18,30 +18,3 @@
 #  10 | 10  20  30  40  50  60  70  80  90 100 
 #
 
-# # version 1
-# for row in range(1, 11):
-#     for col in range(1, 11):
-#         print(f'{row * col}', end=' ')
-#     print()
-
-# # version 2: pad with space to make the table look nice
-# for row in range(1, 11):
-#     for col in range(1, 11):
-#         print(f'{row * col:3}', end=' ')
-#     print()
-
-# # version 3: add the row number and | at the start of each row
-# for row in range(1, 11):
-#     print(f'{row:2} |', end='')
-#     for col in range(1, 11):
-#         print(f'{row * col:3}', end=' ')
-#     print()
-
-# version 3: add the top two rows
-print('      1   2   3   4   5   6   7   8   9  10 ')
-print('    ----------------------------------------')
-for row in range(1, 11):
-    print(f'{row:2} |', end='')
-    for col in range(1, 11):
-        print(f'{row * col:3}', end=' ')
-    print()
