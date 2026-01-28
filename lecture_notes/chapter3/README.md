@@ -20,6 +20,7 @@
 
 - [square.py](square.py) (prints a square of stars)
 - [triangle.py](triangle.py) (prints a triangle of stars)
+- [mult_table.py](mult_table.py) (prints a multiplication table)
 
 - [dist.py](dist.py) (using a function, prints the distance between two points)
 - [harmonic_sum.py](harmonic_sum.py) (prints the sum of the harmonic series using a for-loop in a function)
