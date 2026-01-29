@@ -13,4 +13,7 @@
 a, b = 1, 1
 for i in range(10):
     print(a)
-    a, b = b, a + b
+    prev_a = a
+    a = b
+    b = prev_a + b
+    # a, b = b, a + b
