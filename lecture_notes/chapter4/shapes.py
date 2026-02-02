@@ -40,6 +40,9 @@ def pattern3():
         turtle.right(30)
     turtle.hideturtle()
 
+# put the turtle window in a more convenient location
+turtle.Screen().setup(startx=900, starty=0)
+
 # pattern1()
 pattern2()
 
