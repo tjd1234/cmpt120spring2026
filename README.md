@@ -82,8 +82,8 @@ easy to read on the web in a couple of ways:
 
 ### Week 5 (Feb 2 to Feb 6)
 
-- Read this textbook chapter: [chapter 4][chp4-textbook]
-- Review these lecture notes: [chapter 4 lecture notes][chp4-lecture]
+- Read this textbook chapter: [chapter 4][chp4-textbook], [chapter 5][chp5-textbook]
+- Review these lecture notes: [chapter 4 lecture notes][chp4-lecture], [chapter 5 lecture notes][chp5-lecture]
 - Do this homework: [chapter 4 homework][chp4-hw] ([solutions][chp4-sol])
 - Write the weekly Canvas quiz on Friday!
 
