@@ -28,6 +28,8 @@ def arc(radius, angle):
     step_angle = angle / n
     polyline(n, length, step_angle)
 
+# put the turtle window in a more convenient location
+turtle.Screen().setup(startx=900, starty=0)
 
 turtle.color("red")
 arc(100, 180)  # half circle

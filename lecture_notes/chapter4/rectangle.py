@@ -12,8 +12,14 @@ def rectangle(width, height):
     turtle.forward(height)
     turtle.left(90)
 
-rectangle(10, 5)
-rectangle(50, 20)
-rectangle(100, 175)
+def square(length):
+    rectangle(length, length)
+
+# put the turtle window in a more convenient location
+turtle.Screen().setup(startx=900, starty=0)
+
+square(10)
+square(50)
+square(100)
 
 turtle.done()

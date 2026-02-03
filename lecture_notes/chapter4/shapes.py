@@ -43,7 +43,10 @@ def pattern3():
 # put the turtle window in a more convenient location
 turtle.Screen().setup(startx=900, starty=0)
 
+# flower(100, star)
+
 # pattern1()
-pattern2()
+# pattern2()
+pattern3()
 
 turtle.done()

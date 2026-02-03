@@ -13,16 +13,21 @@ def polyline(n, length, angle):
         turtle.forward(length)
         turtle.left(angle)
 
-polyline(5, 100, 144)    # 5-pointed star
-polyline(5, 100, 45)     # 5 sides of an octagon
-polyline(5, 100, 70)     # an unfinished pentagon
-polyline(25, 100, 100)   # a nice pattern
+# put the turtle window in a more convenient location
+turtle.Screen().setup(startx=900, starty=0)
+
+# polyline(5, 100, 144)    # 5-pointed star
+# polyline(5, 100, 45)     # 5 sides of an octagon
+# polyline(5, 100, 70)     # an unfinished pentagon
+# polyline(25, 100, 100)   # a nice pattern
 
 #
 # polygon can be implemented using polyline
 #
-# def polygon(num_sides, length):
-#     angle = 360.0 / num_sides
-#     polyline(num_sides, length, angle)
+def polygon(num_sides, length):
+    angle = 360.0 / num_sides
+    polyline(num_sides, length, angle)
+
+polygon(10, 100)
 
 turtle.done()

@@ -12,8 +12,8 @@ def row_of_squares(num_squares, length):
         square(length)
         turtle.forward(length)
 
-# turtle.Screen().setup(startx=900, starty=0)
-# turtle.teleport(-200, 0)
-# row_of_squares(10, 50)
+turtle.Screen().setup(startx=900, starty=0)
+turtle.teleport(-200, 0)
+row_of_squares(10, 50)
 
 turtle.done()
