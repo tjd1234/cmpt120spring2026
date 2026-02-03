@@ -32,8 +32,9 @@ shows the remaining time in an exam.
 
 ## Other Links
 
-[Boolean Expression Quiz](bool_quiz.html) is a [vibe
-coded](https://en.wikipedia.org/wiki/Vibe_coding) web app that tests you
+[Boolean Expression
+Quiz](https://tjd1234.github.io/Vibecoded-Visualizations/boolQuiz.html) is a
+[vibe coded](https://en.wikipedia.org/wiki/Vibe_coding) web app that tests you
 practice evaluating boolean expressions.
 
 ## Lecture Notes (Spring 2026)
