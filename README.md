@@ -7,7 +7,7 @@ course is [here](https://github.com/tjd1234/cmpt120spring2026).
 
 - [Assignment 1](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a1/a1.ipynb)
 - [Assignment 2](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a2/a2.ipynb)
-- Assignment 3
+- [Assignment 3](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a3/a3.ipynb)
 - Assignment 4
 - Assignment 5
 
@@ -40,7 +40,8 @@ practice evaluating boolean expressions.
 ## Lecture Notes (Spring 2026)
 
 Most of the notes are in [Jupyter notebooks](https://jupyter.org/). [See here
-for an overview](https://colab.research.google.com/github/AllenDowney/ThinkPython/blob/v3/chapters/jupyter_intro.ipynb) if you are unfamiliar with notebooks.
+for an overview](https://colab.research.google.com/github/AllenDowney/ThinkPython/blob/v3/chapters/jupyter_intro.ipynb) 
+if you are unfamiliar with notebooks.
 
 **You don't need to install notebook software on your own computer**. They are
 easy to read on the web in a couple of ways:
