@@ -2,7 +2,7 @@
 
 def mystery():
     mystery()
-    print('done')
+    print('done') # dead code
 
 print('mystery2.py: calling mystery() ...')
 mystery()

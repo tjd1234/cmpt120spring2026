@@ -4,7 +4,7 @@ def mystery(n):
     if n < 1:
         return
     else:
-        print(f"calling mystery({n}) ...")
+        print(f"calling mystery({n - 1}) ...")
         mystery(n - 1)
 
 

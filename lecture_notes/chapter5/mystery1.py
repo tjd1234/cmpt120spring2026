@@ -1,5 +1,6 @@
 # mystery1.py
 
+# infinite loop
 def mystery():
     mystery()
 

@@ -1,6 +1,6 @@
 # mystery4.py
 
-n = 0
+n = 1
 def mystery():
     global n # this is necessary to modify the global variable n
     print('calling mystery() again ...')

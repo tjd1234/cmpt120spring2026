@@ -5,4 +5,4 @@ def mystery(n):
     mystery(n)
 
 print('mystery5.py: calling mystery(1) ...')
-mystery(1)
+mystery(75)
