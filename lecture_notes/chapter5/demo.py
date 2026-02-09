@@ -1,7 +1,2 @@
-# demo.p5
+# demo.py
 
-# ... defs ...
-
-#
-# main calling code
-#
