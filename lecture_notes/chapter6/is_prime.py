@@ -1,17 +1,11 @@
 # is_prime.py
 
 #
-# This function checks if a number is prime.
+# This is a boolean function that tests if a number is prime.
 #
 def is_prime(n):
-    if n <= 1:
-        return False
-    # Test if any number from 2 to n-1 divides evenly into n. If any do, then n
-    # is not prime.
-    for i in range(2, n):
-        if n % i == 0:
-            return False
-    return True
+    # TODO: implement this function
+    pass
 
 def is_prime_demo():
     for i in range(21):
@@ -33,4 +27,5 @@ def num_primes_demo():
     N = 10000
     print(f'# of primes less than {N}: {num_primes(N)}')
 
-num_primes_demo()
+is_prime_demo()
+# num_primes_demo()
