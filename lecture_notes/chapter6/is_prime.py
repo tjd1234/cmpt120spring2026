@@ -3,9 +3,15 @@
 #
 # This is a boolean function that tests if a number is prime.
 #
+# 7
+
 def is_prime(n):
-    # TODO: implement this function
-    pass
+    if n < 2: 
+        return False
+    for d in range(2, n):  # 2 <= d < n
+        if n % d == 0:
+            return False
+    return True
 
 def is_prime_demo():
     for i in range(21):
@@ -24,8 +30,8 @@ def num_primes(n):
     return count
 
 def num_primes_demo():
-    N = 10000
-    print(f'# of primes less than {N}: {num_primes(N)}')
+    N = 1000
+    print(f'# of primes <= {N}: {num_primes(N)}')
 
-is_prime_demo()
-# num_primes_demo()
+# is_prime_demo()
+num_primes_demo()

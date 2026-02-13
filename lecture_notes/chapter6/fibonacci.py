@@ -22,10 +22,10 @@ def F_loop(n):
         b = a_old + b_old
     return a
 
-for i in range(35+1):
+for i in range(10+1):
     print(f'Calculating F({i})...', end='')
     print(f'{F(i)}')
 
-# for i in range(35+1):
+# for i in range(10+1):
 #     print(f'Calculating F_loop({i})...', end='')
 #     print(f'{F_loop(i)}')
