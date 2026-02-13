@@ -91,9 +91,9 @@ easy to read on the web in a couple of ways:
 
 ### Week 6 (Feb 9 to Feb 13)
 
-- Read this textbook chapter: [chapter 5][chp5-textbook]
-- Review these lecture notes: [chapter 5 lecture notes][chp5-lecture]
-- Do this homework: [chapter 5 homework][chp5-hw] ([solutions][chp5-sol])
+- Read this textbook chapter: [chapter 5][chp5-textbook], [chapter 6][chp6-textbook]
+- Review these lecture notes: [chapter 5 lecture notes][chp5-lecture], [chapter 6 lecture notes][chp6-lecture]
+- Do this homework: [chapter 5 homework][chp5-hw] ([solutions][chp5-sol]), [chapter 6 homework][chp6-hw] ([solutions][chp6-sol])
 - Write the weekly Canvas quiz on Friday!
 
 ### Week 7 (Feb 16 to Feb 20)
@@ -102,54 +102,47 @@ easy to read on the web in a couple of ways:
 
 ### Week 8 (Feb 23 to Feb 27)
 
-- Read this textbook chapter: [chapter 6][chp6-textbook]
-- Review these lecture notes: [chapter 6 lecture notes][chp6-lecture]
-- Do this homework: [chapter 6 homework][chp6-hw] ([solutions][chp6-sol])
-- Write the weekly Canvas quiz on Friday!
-
-### Week 9 (Mar 2 to Mar 6)
-
 - This week includes the topic of **while loops**. For some reason, the textbook
   does not cover while-loops, so please see the lecture notes and PowerPoint
   presentation.
 - Review these lecture notes: [chapter 7 lecture notes][chp7-lecture]
-- Do this homework:
-- Write the weekly Canvas quiz on Friday!
-
-### Week 10 (Mar 9 to Mar 13)
-
-- Midterm exam! See Canvas for details.
-- Read this textbook chapter: [chapter 7][chp7-textbook]
-- Review these lecture notes: [chapter 7 lecture notes][chp7-lecture]
 - Do this homework: [chapter 7 homework][chp7-hw] ([solutions][chp7-sol])
 - Write the weekly Canvas quiz on Friday!
 
-### Week 11 (Mar 16 to Mar 20)
+### Week 9 (Mar 2 to Mar 6)
+
+- Midterm exam! See Canvas for details.
+
+### Week 10 (Mar 9 to Mar 13)
 
 - Read this textbook chapter: [chapter 8][chp8-textbook]
 - Review these lecture notes: [chapter 8 lecture notes][chp8-lecture]
 - Do this homework: [chapter 8 homework][chp8-hw] ([solutions][chp8-sol])
 - Write the weekly Canvas quiz on Friday!
 
-### Week 12 (Mar 23 to Mar 27)
+### Week 11 (Mar 16 to Mar 20)
 
 - Read this textbook chapter: [chapter 9][chp9-textbook]
 - Review these lecture notes: [chapter 9 lecture notes][chp9-lecture]
 - Do this homework: [chapter 9 homework][chp9-hw] ([solutions][chp9-sol])
 - Write the weekly Canvas quiz on Friday!
 
-### Week 13 (Mar 30 to Apr 3)
+### Week 12 (Mar 23 to Mar 27)
 
 - Read this textbook chapter: [chapter 10][chp10-textbook]
 - Review these lecture notes: [chapter 10 lecture notes][chp10-lecture]
 - Do this homework: [chapter 10 homework][chp10-hw] ([solutions][chp10-sol])
 - Write the weekly Canvas quiz on Friday!
 
-### Week 14 (Apr 6 to Apr 10)
+### Week 13 (Mar 30 to Apr 3)
 
 - Read this textbook chapter: **none**
 - Review these lecture notes: [linear search][linear-lecture], [binary search][binary-lecture], [sorting][sorting-lecture]
 - Do this homework: [linear search homework][linear-hw] ([solutions][linear-sol]), [binary search homework][binary-hw] ([solutions][binary-sol]), [sorting homework][sorting-hw] ([solutions][sorting-sol])
+
+### Week 14 (Apr 6 to Apr 10)
+
+- Topics to be determined.
 
 ### Exam Period (April 13 to April 25)
 
