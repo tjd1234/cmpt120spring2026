@@ -1,4 +1,4 @@
-# spiral.py
+# spiral1_sol.py
 
 import turtle
 
