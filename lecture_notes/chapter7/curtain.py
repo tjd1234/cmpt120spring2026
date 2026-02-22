@@ -1,4 +1,4 @@
-# demo.py
+# curtain.py
 
 import stage
 

@@ -10,8 +10,8 @@ A Python module that shows a stage with a curtain. It has these functions:
 - `get_height()` returns the current curtain height: **0.0** = fully closed,
   **1.0** = fully open. You can call this anytime to see where the curtain is.
 
-- `update()` processes pending events so that curtain animation can run. Call
-  this inside a loop if you want the curtain to move.  
+- `update()` processes pending events so that curtain animation can run. For
+  example, call this inside a loop if you want the curtain to move.  
 
 - `keep_window_open()` keeps the window open until the user closes it.
 

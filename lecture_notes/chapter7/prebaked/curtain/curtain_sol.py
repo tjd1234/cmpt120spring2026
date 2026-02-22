@@ -1,4 +1,4 @@
-# demo.py
+# curtain_sol.py
 
 import stage
 import time
