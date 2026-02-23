@@ -1,4 +1,4 @@
-# password_checker2.py
+# password_checker.py
 
 import turtle
 

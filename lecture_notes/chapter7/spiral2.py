@@ -2,8 +2,8 @@
 
 import turtle
 
+turtle.setup(startx=10, starty=10)
 turtle.speed(0)
-
 
 #
 # TODO: Modify this so that the loop ends when the turtle is off the screen.

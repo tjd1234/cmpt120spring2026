@@ -7,7 +7,7 @@ Uses a simple loop to update the second hand (and minute/hour) each second.
 import time
 import clock
 
-clock.set_window_position(1480, 100)
+clock.set_window_position(10, 10)
 clock.set_show_minute_ticks(True)
 clock.set_show_quarter_ticks(True)
 clock.set_show_numbers(True)
