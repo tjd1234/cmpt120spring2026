@@ -8,7 +8,7 @@ course is [here](https://github.com/tjd1234/cmpt120spring2026).
 - [Assignment 1](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a1/a1.ipynb)
 - [Assignment 2](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a2/a2.ipynb)
 - [Assignment 3](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a3/a3.ipynb)
-- Assignment 4
+- [Assignment 4](https://github.com/tjd1234/cmpt120spring2026/blob/main/assignments/a4/a4.ipynb)
 - Assignment 5
 
 ## Sample Exams
