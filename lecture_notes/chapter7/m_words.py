@@ -15,8 +15,3 @@ def check_if_m_word(word):
 check_if_m_word('mumble')
 check_if_m_word('apple')
 check_if_m_word('')
-
-def jump_to(x, y):
-    turtle.penup()
-    turtle.goto(x, y)
-    turtle.pendown()
