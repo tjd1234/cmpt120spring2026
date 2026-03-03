@@ -112,11 +112,12 @@ easy to read on the web in a couple of ways:
 ### Week 9 (Mar 2 to Mar 6)
 
 - Midterm exam! See Canvas for details.
+- Review these lecture notes: [chapter 8 lecture notes][chp8-lecture]
 
 ### Week 10 (Mar 9 to Mar 13)
 
 - Read this textbook chapter: [chapter 8][chp8-textbook]
-- Review these lecture notes: [chapter 8 lecture notes][chp8-lecture]
+- Review these lecture notes: [chapter 8 lecture notes][chp8-lecture]; [practice problems][chp8-practice] ([solutions][chp8-practice-sol])
 - Do this homework: [chapter 8 homework][chp8-hw] ([solutions][chp8-sol])
 - Write the weekly Canvas quiz on Friday!
 
@@ -189,6 +190,8 @@ See the Canvas website for the final exam details.
 
 [chp8-textbook]: https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap08.ipynb
 [chp8-lecture]: https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_lecture.ipynb
+[chp8-practice]: https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice.ipynb
+[chp8-practice-sol]: https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice_sol.ipynb
 [chp8-hw]: https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8.ipynb
 [chp8-sol]: https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8_sol.ipynb
 
