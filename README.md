@@ -119,7 +119,7 @@ easy to read on the web in a couple of ways:
 ### Week 10 (Mar 9 to Mar 13)
 
 - Read this textbook chapter: [chapter 8][chp8-textbook]
-- Review these lecture notes: [chapter 8 lecture notes][chp8-lecture]; [practice problems][chp8-practice] ([solutions][chp8-practice-sol])
+- Review these lecture notes: [chapter 8 lecture notes][chp8-lecture]; [practice problems][chp8-practice] ([solutions][chp8-practice-sol]); [ROT13 example](lecture_notes/chapter8/rot13.ipynb)
 - Do this homework: [chapter 8 homework][chp8-hw] ([solutions][chp8-sol])
 - Extra practice problems: [string function practice](exams/string_fns.ipynb) ([solutions](exams/string_fns_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
