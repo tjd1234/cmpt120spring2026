@@ -29,8 +29,8 @@ plays X.
 **2 marks** for letting place their piece by clicking on an empty cell. Clicking
 a non-empty cell, or clicking outside the grid, does nothing.
 
-**3 mark** for the computer making its move. The computer can play randomly, or
-better. It should only make legal moves.
+**3 mark** for the computer making its move. The computer should only make legal
+moves, and it should play perfectly, i.e. it should never lose.
 
 **2 marks** for the game ending when there is a winner or a draw and announcing
 the result as a message on the board.
