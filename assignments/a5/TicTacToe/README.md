@@ -32,10 +32,14 @@ a non-empty cell, or clicking outside the grid, does nothing.
 **3 mark** for the computer making its move. The computer should only make legal
 moves, and it should play perfectly, i.e. it should never lose.
 
-**2 marks** for the game ending when there is a winner or a draw and announcing
+**1 mark** for the game ending when there is a winner or a draw and announcing
 the result as a message on the board.
 
-**2 marks** when the game is over, the use can click anywhere on the screen to
+**1 mark** for keeping track of the number of wins, losses, and draws, and
+displaying that either at the top or bottom of the window (not just printed in
+the terminal)
+
+**2 marks** when the game is over, the user can click anywhere on the screen to
 restart the game and play again.
 
 **2 marks** overall: consistent indentation and spacing (all blank lines and
