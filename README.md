@@ -129,6 +129,7 @@ easy to read on the web in a couple of ways:
 - Read this textbook chapter: [chapter 9][chp9-textbook]
 - Review these lecture notes: [chapter 9 lecture notes][chp9-lecture]
 - Do this homework: [chapter 9 homework][chp9-hw] ([solutions][chp9-sol])
+- Extra practice problems: [list problems](120/public/lecture_notes/chapter9/chapter9_practice.ipynb) ([solutions](lecture_notes/chapter9/chapter9_practice_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
 
 ### Week 12 (Mar 23 to Mar 27)
