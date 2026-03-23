@@ -137,14 +137,10 @@ easy to read on the web in a couple of ways:
 - Read this textbook chapter: [chapter 10][chp10-textbook]
 - Review these lecture notes: [chapter 10 lecture notes][chp10-lecture]
 - Practice problems:
-  - [basic dictionaries](lecture_notes/chapter10/dictionaries1.py)
-    ([solutions](lecture_notes/chapter10/dictionaries1_sol.py))
-  - [reverse word counting](lecture_notes/chapter10/word_check.ipynb)
-    ([solutions](lecture_notes/chapter10/word_check_sol.ipynb))
-  - [counting characters](lecture_notes/chapter10/counting_chars.ipynb)
-    ([solutions](lecture_notes/chapter10/counting_chars_sol.ipynb))
-  - [counting votes](lecture_notes/chapter10/counting_votes.ipynb)
-    ([solutions](lecture_notes/chapter10/counting_votes_sol.ipynb))
+  - [basic dictionaries](lecture_notes/chapter10/dictionaries1.py) ([solutions](lecture_notes/chapter10/dictionaries1_sol.py))
+  - [reverse word counting](lecture_notes/chapter10/word_check.ipynb) ([solutions](lecture_notes/chapter10/word_check_sol.ipynb))
+  - [counting characters](lecture_notes/chapter10/counting_chars.ipynb) ([solutions](lecture_notes/chapter10/counting_chars_sol.ipynb))
+  - [counting votes](lecture_notes/chapter10/counting_votes.ipynb) ([solutions](lecture_notes/chapter10/counting_votes_sol.ipynb))
 
 - Do this homework: [chapter 10 homework][chp10-hw] ([solutions][chp10-sol])
 - Write the weekly Canvas quiz on Friday!
