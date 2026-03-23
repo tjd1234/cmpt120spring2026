@@ -137,10 +137,14 @@ easy to read on the web in a couple of ways:
 - Read this textbook chapter: [chapter 10][chp10-textbook]
 - Review these lecture notes: [chapter 10 lecture notes][chp10-lecture]
 - Practice problems:
-  - [basic dictionaries](lecture_notes/chapter10/dictionaries1.py) ([solutions](lecture_notes/chapter10/dictionaries1_sol.py))
-  - [reverse word counting](lecture_notes/chapter10/word_check.ipynb) ([solutions](lecture_notes/chapter10/word_check_sol.ipynb))
-  - [counting characters](lecture_notes/chapter10/counting_chars.ipynb) ([solutions](lecture_notes/chapter10/counting_chars_sol.ipynb))
-  - [counting votes](lecture_notes/chapter10/counting_votes.ipynb) ([solutions](lecture_notes/chapter10/counting_votes_sol.ipynb))
+  - [basic dictionaries](lecture_notes/chapter10/dictionaries1.py)
+    ([solutions](lecture_notes/chapter10/dictionaries1_sol.py))
+  - [reverse word counting](lecture_notes/chapter10/word_check.ipynb)
+    ([solutions](lecture_notes/chapter10/word_check_sol.ipynb))
+  - [counting characters](lecture_notes/chapter10/counting_chars.ipynb)
+    ([solutions](lecture_notes/chapter10/counting_chars_sol.ipynb))
+  - [counting votes](lecture_notes/chapter10/counting_votes.ipynb)
+    ([solutions](lecture_notes/chapter10/counting_votes_sol.ipynb))
 
 - Do this homework: [chapter 10 homework][chp10-hw] ([solutions][chp10-sol])
 - Write the weekly Canvas quiz on Friday!
@@ -148,8 +152,12 @@ easy to read on the web in a couple of ways:
 ### Week 13 (Mar 30 to Apr 3)
 
 - Read this textbook chapter: **none**
-- Review these lecture notes: [linear search][linear-lecture], [binary search][binary-lecture], [sorting][sorting-lecture]
-- Do this homework: [linear search homework][linear-hw] ([solutions][linear-sol]), [binary search homework][binary-hw] ([solutions][binary-sol]), [sorting homework][sorting-hw] ([solutions][sorting-sol])
+- Review these lecture notes: [linear search][linear-lecture], [binary
+  search][binary-lecture], [sorting][sorting-lecture]
+- Do this homework: [linear search homework][linear-hw]
+  ([solutions][linear-sol]), [binary search homework][binary-hw]
+  ([solutions][binary-sol]), [sorting homework][sorting-hw]
+  ([solutions][sorting-sol])
 
 ### Week 14 (Apr 6 to Apr 10)
 
