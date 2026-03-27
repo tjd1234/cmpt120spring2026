@@ -144,7 +144,6 @@ presentation.
   - [counting votes](lecture_notes/chapter10/counting_votes.ipynb) ([solutions](lecture_notes/chapter10/counting_votes_sol.ipynb))
   - Some of the above versions contain the solutions made in the lectures. You
     can find fresh copies in the [prebaked](lecture_notes/chapter10/prebaked) folder.
-    folder.
 - Do this homework: [chapter 10 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
 
