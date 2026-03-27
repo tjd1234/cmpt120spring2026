@@ -1,4 +1,4 @@
-# linear_search_exercises_sol.py
+# linear_search_exercises.py
 
 # TODO 1 Create a new variable called names initialized to this list of strings:
 # "Eve", "Diana", "Charlie", "Alice", "Bob". Print it to make sure it's correct.
