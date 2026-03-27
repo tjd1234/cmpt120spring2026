@@ -138,12 +138,10 @@ presentation.
 - Read this textbook chapter: [chapter 10](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap10.ipynb)
 - Review these lecture notes: [chapter 10 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/chapter10_lecture.ipynb)
 - Practice problems:
-  - [basic dictionaries](lecture_notes/chapter10/dictionaries1.py) ([solutions](lecture_notes/chapter10/dictionaries1_sol.py))
-  - [reverse word counting](lecture_notes/chapter10/word_check.ipynb) ([solutions](lecture_notes/chapter10/word_check_sol.ipynb))
-  - [counting characters](lecture_notes/chapter10/counting_chars.ipynb) ([solutions](lecture_notes/chapter10/counting_chars_sol.ipynb))
-  - [counting votes](lecture_notes/chapter10/counting_votes.ipynb) ([solutions](lecture_notes/chapter10/counting_votes_sol.ipynb))
-  - Some of the above versions contain the solutions made in the lectures. You
-    can find fresh copies in the [prebaked](lecture_notes/chapter10/prebaked) folder.
+  - [basic dictionaries](lecture_notes/chapter10/dictionaries1_start.py) ([solutions](lecture_notes/chapter10/dictionaries1_sol.py))
+  - [reverse word counting](lecture_notes/chapter10/word_check_start.py) ([solutions](lecture_notes/chapter10/word_check_sol.ipynb))
+  - [counting characters](lecture_notes/chapter10/counting_chars_start.py) ([solutions](lecture_notes/chapter10/counting_chars_sol.py))
+  - [counting votes](lecture_notes/chapter10/counting_votes_start.py) ([solutions](lecture_notes/chapter10/counting_votes_sol.py))
 - Do this homework: [chapter 10 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
 
