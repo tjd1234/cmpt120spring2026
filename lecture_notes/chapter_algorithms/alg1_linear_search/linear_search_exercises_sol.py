@@ -211,7 +211,7 @@ print(f"95 found at index {index}")
 
 # TODO 18 Write a function called count_occurrences that takes a list and a
 # target, and returns how many times the target appears in the list. Use a
-# for-loop and a counter variable, and do NOT list.count(). Test it on a few 
+# for-loop and a counter variable, and do NOT use list.count(). Test it on a few
 # different lists and targets to make sure it works.
 def count_occurrences(lst, target):
     count = 0
