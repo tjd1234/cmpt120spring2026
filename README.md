@@ -152,6 +152,7 @@ presentation.
 - Practice problems:
   - [linear search](lecture_notes/chapter_algorithms/alg1_linear_search/linear_search_exercises_start.py) ([solutions](lecture_notes/chapter_algorithms/linear_search/alg1_linear_search_exercises_sol.py))
   - [binary search](lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_start.py) ([solutions](lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_sol.py))
+  - [selection sort](lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_start.py) ([solutions](lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_sol.py))
 - Do this homework: 
   - [linear search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework_sol.ipynb))
   - [binary search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework_sol.ipynb))
