@@ -1,4 +1,4 @@
-# selection_sort_sol.py
+# selection_sort_start.py
 
 #
 # Selection Sort
