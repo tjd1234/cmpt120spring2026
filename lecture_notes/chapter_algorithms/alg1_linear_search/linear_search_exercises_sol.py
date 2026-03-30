@@ -8,17 +8,20 @@ print(names)
 # TODO 2 Print the length of the names using the len() function.
 print(len(names))
 
-# TODO 3 Print the first and last names.
-print(names[0])
-print(names[-1])
+# TODO 3 Print the first and last names. Do it in two different ways: one way
+# using non-negative indices and one way using negative indices. Do it so it
+# works with any list of names.
+print('first and last (non-negative):', names[0], names[len(names)-1])
+print('first and last (negative):', names[-len(names)], names[-1])
 
 #
 # If-statements
 #
 
-# TODO 4 Write an if-statement that checks if the string "Alice" is equal to
-# target. If it is, print "Found it!". Otherwise, print "Not a match." Test it
-# by setting target to first "Alice" and then "Zara".
+# TODO 4 Add new variable called target and initialize to the empty string.
+# Write an if-statement that checks if the string "Alice" is equal to target. If
+# it is, print "Found it!". Otherwise, print "Not a match." Test it by setting
+# target to first "Alice" and then "Zara".
 target = "Alice"
 if target == "Alice":
     print("Found it!")
@@ -27,8 +30,8 @@ else:
 
 
 # TODO 5 Write an if-statement that checks if target appears anywhere in the
-# names list using the in operator. Print appropriate messages if is found or
-# not found.
+# names list. Use the in operator and print messages if it is found or not
+# found.
 if target in names:
     print(f"{target} is in the list.")
 else:
@@ -54,8 +57,9 @@ for i in range(len(names)):
 for i, n in enumerate(names):
     print(i, n)
 
-# TODO 9 Write a for-loop that goes through all the names and prints the name
-# only if it is equal to target.
+# TODO 9 Write a for-loop that goes through all the names and prints a name only
+# if it is equal to target.
+target = "Alice"
 for n in names:
     if n == target:
         print(n)
@@ -65,8 +69,8 @@ for n in names:
 #
 
 # TODO 10 Re-do the previous task so that it prints the index of where in the
-# list the target is found, e.g. if the target is "Charlie", it should print
-# "Found Charlie at index 2". Outside the loop at the end print 'done'.
+# list the target is found. For example, if the target is "Charlie", it should
+# print "Found Charlie at index 2". Outside the loop at the end print 'done'.
 # Test it with the target "Charlie", and then "Zara".
 names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
 target = "Charlie"
@@ -108,10 +112,10 @@ def linear_search(lst, target):
     print(f"Searching for {target} in {lst} ...")
     return -1
 
-# TODO 13 Now remove the print statement and add a loop that searches for target
-# in lst. Create a local variable called found_index (initialized to -1) to
-# store the index. At the end of the function, return found_index. Test it by
-# searching for "Charlie" and then "Zara".
+# TODO 13 Now remove the print statement from linear_search and add a loop that
+# searches for target in lst. Create a local variable called found_index
+# (initialized to -1) to store the index. At the end of the function, return
+# found_index. Test it by searching for "Charlie" and then "Zara".
 def linear_search(lst, target):
     found_index = -1
     for i in range(len(lst)):
@@ -143,10 +147,10 @@ print(linear_search(names, "Zara")) # -1
 
 # TODO 15 Now lets write a little program to test linear_search. We want the
 # program to read words from the user, search for them in the list of names, and
-# then print a message saying whether the word was found or not. If the user
+# then print a message saying whether the word was found or not. When the user
 # types 'done', the program should say 'bye bye!' and exit. 
 # 
-# For example:
+# Here's a sample run:
 # 
 #   --> Alice 
 #   found at index 3 
@@ -194,8 +198,7 @@ print(linear_search(names, "Zara")) # -1
 
 # TODO 17 Notice that 95 appears twice in scores (at index 2 and index 5). Call
 # linear_search to search for 95 in scores and print the result. Which index
-# does it return? Why does linear search behave this way? Explain your answer like
-# are speaking to a 5 year old.
+# does it return? Why does linear search return that one and not the other?
 scores = [42, 17, 95, 3, 67, 95, 8]
 index = linear_search(scores, 95)
 print(f"95 found at index {index}")
@@ -210,9 +213,9 @@ print(f"95 found at index {index}")
 #
 
 # TODO 18 Write a function called count_occurrences that takes a list and a
-# target, and returns how many times the target appears in the list. Use a
-# for-loop and a counter variable, and do NOT use list.count(). Test it on a few
-# different lists and targets to make sure it works.
+# target as input, and returns how many times the target appears in the list.
+# Use a for-loop and a counter variable, and do NOT use list.count(). Test it on
+# a few different lists and targets to make sure it works.
 def count_occurrences(lst, target):
     count = 0
     for item in lst:
@@ -230,7 +233,7 @@ print(count_occurrences(scores, 17))
 # list of every index in lst where target appears. If target is not found at
 # all, return an empty list. For example, if scores is [42, 17, 95, 3, 67, 95,
 # 8] and target is 95, it should return [2, 5]. If target is 10, then [] is
-# returned. Test is with at those values and a couple more.
+# returned. Test it with at those values and a couple more.
 def find_all_indices(lst, target):
     indices = []
     for i in range(len(lst)):
