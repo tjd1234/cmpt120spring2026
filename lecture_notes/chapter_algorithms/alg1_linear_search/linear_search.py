@@ -3,6 +3,7 @@
 # TODO 1 Create a new variable called names initialized to this list of strings:
 # "Eve", "Diana", "Charlie", "Alice", "Bob". Print it to make sure it's correct.
 names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+print('names:', names)
 
 # TODO 2 Print the length of the names using the len() function.
 print('length of names:', names)
