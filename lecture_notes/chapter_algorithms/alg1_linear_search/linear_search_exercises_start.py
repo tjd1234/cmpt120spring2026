@@ -15,7 +15,7 @@
 # If-statements
 #
 
-# TODO 4 Add new variable called target and initialize to the empty string.
+# TODO 4 Add new variable called target and initialize it to the empty string.
 # Write an if-statement that checks if the string "Alice" is equal to target. If
 # it is, print "Found it!". Otherwise, print "Not a match." Test it by setting
 # target to first "Alice" and then "Zara".
@@ -56,10 +56,10 @@
 
 
 # TODO 11 Create a variable called found_index and initialize it to -1. Re-do
-# the previous task using but instead of printing the index of where the target
-# is found, set found_index to be that index. Then at the end instead of
-# printing "done" print "Found <target> at index <found_index>." Test it with the
-# target "Charlie", and then "Zara".
+# the previous task but instead of printing the index of where the target is
+# found, set found_index to be that index. Then at the end instead of printing
+# "done" print "Found <target> at index <found_index>." Test it with the target
+# "Charlie", and then "Zara".
 
 
 #
