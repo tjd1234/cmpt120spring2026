@@ -6,13 +6,14 @@ names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
 print('names:', names)
 
 # TODO 2 Print the length of the names using the len() function.
-print('length of names:', names)
+print('length of names:', len(names))
 
 
 # TODO 3 Print the first and last names. Do it in two different ways: one way
 # using non-negative indices and one way using negative indices. Do it so it
 # works with any list of names.
-
+print('first/last positive:', names[0], names[len(names)-1])
+print('first/last negative:', names[-len(names)], names[-1])
 
 #
 # If-statements
@@ -22,31 +23,51 @@ print('length of names:', names)
 # Write an if-statement that checks if the string "Alice" is equal to target. If
 # it is, print "Found it!". Otherwise, print "Not a match." Test it by setting
 # target to first "Alice" and then "Zara".
+names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+target = 'Zara'
+if target in names:
+    print('Found it!')
+else:
+    print('Not a match!')
 
 
-# TODO 5 Write an if-statement that checks if target appears anywhere in the
-# names list. Use the in operator and print messages if it is found or not
-# found.
+# TODO 5 Re-do the previous task using so it does the same thing, but use "not
+# in" instead of "in".
+names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+target = 'Zara'
+if target not in names:
+    print('Not a match!')
+else:
+    print('Found it!')
 
 #
 # loops
 #
 
 # TODO 6 Write a for-loop that prints every element in names, one per line.
-
+names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+for n in names:
+    print(n)
 
 # TODO 7 Write a for-loop that prints every element in names along with its
 # index. Use the range() and len() functions in the loop. The first line should
-# look like: 0 Alice
-
+# look like: 0 Eve
+for i in range(len(names)):
+    print(i, names[i])
 
 # TODO 8 Re-do the previous task using the built-in enumerate() function instead
 # of range(len(...)). The output should be identical.
-
+for i, n in enumerate(names):
+    print(i, n)
 
 # TODO 9 Write a for-loop that goes through all the names and prints a name only
 # if it is equal to target.
-
+names = ["Eve", "Diana", "Bob", "Charlie", "Alice", "Bob"]
+target = 'Bob'
+for n in names:
+    if target == n:
+        print(n)
+print('done')
 
 #
 # building linear search
@@ -56,14 +77,31 @@ print('length of names:', names)
 # list the target is found. For example, if the target is "Charlie", it should
 # print "Found Charlie at index 2". Outside the loop at the end print 'done'.
 # Test it with the target "Charlie", and then "Zara".
-
+names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+target = 'Zara'
+for i in range(len(names)):
+    n = names[i]
+    if target == n:
+        print(f'Found {target} at index {i}')
+print('done')
 
 # TODO 11 Create a variable called found_index and initialize it to -1. Re-do
 # the previous task but instead of printing the index of where the target
 # is found, set found_index to be that index. Then at the end instead of
 # printing "done" print "Found <target> at index <found_index>." Test it with the
 # target "Charlie", and then "Zara".
+names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+target = 'Zara'
+found_index = -1
+for i in range(len(names)):
+    n = names[i]
+    if target == n:
+        found_index = i
 
+if found_index == -1:
+    print(f'{target} not found')
+else:
+    print(f'Found {target} at index {found_index}')
 
 #
 # functions
@@ -80,17 +118,54 @@ print('length of names:', names)
 # For now, have the function just print "Searching for <target> in <lst> ..." and
 # then return -1.
 
+# function stub
+def linear_search(lst, target):
+    print(f'Looking for {target} in {lst} ...')
+    return -1
+
+names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+print(linear_search(names, 'Eve'))
+
 
 # TODO 13 Now remove the print statement from linear_search and add a loop that
 # searches for target in lst. Create a local variable called found_index
 # (initialized to -1) to store the index. At the end of the function, return
 # found_index. Test it by searching for "Charlie" and then "Zara".
+def linear_search(lst, target):
+    found_index = -1
+    for i in range(len(lst)):
+        n = lst[i]
+        if target == n:
+            found_index = i
+    return found_index
 
+names = ["Bob", "Eve", "Diana", "Charlie", "Alice", "Bob"]
+print(linear_search(names, 'Bob')) # 5
 
 # TODO 14 If you created the linear_search function as described, then after it
 # finds the target it keeps searching. Modify the function so that it returns
 # immediately after the target is found. Test it by searching for "Charlie" and
 # then "Zara". Hint: It's possible to now get rid of the found_index variable!
+# def linear_search(lst, target):
+#     found_index = -1
+#     for i in range(len(lst)):
+#         n = lst[i]
+#         if target == n:
+#             found_index = i
+#             return found_index
+#     return found_index
+def linear_search(lst, target):
+    for i in range(len(lst)):
+        n = lst[i]
+        if target == n:
+            return i
+    return -1 # not found
+
+names = ["Bob", "Eve", "Diana", "Charlie", "Alice", "Bob"]
+print(linear_search(names, 'Zara')) # 0
+
+scores = [10, 4, 2, 1, 6, 7]
+print(linear_search(scores, 4)) # ? 1
 
 #
 # a test program
@@ -132,6 +207,8 @@ print('length of names:', names)
 # program from the previous task using the scores list instead of names. Does it
 # work?
 
+# Yes!
+
 
 # TODO 17 Notice that 95 appears twice in scores (at index 2 and index 5). Call
 # linear_search to search for 95 in scores and print the result. Which index
@@ -157,7 +234,6 @@ print('length of names:', names)
 # finding the max
 #
 
-
 # TODO 20 Write a function called get_max(lst) that returns the largest value in
 # the lst. Use a for-loop and a variable to keep track of the largest value seen
 # so far. Test it on a few different lists to make sure it works, including:
@@ -165,6 +241,15 @@ print('length of names:', names)
 # - the empty list
 # - a list of ints (it should return the largest int)
 # - a list of strings (it should return the alphabetically last string)
+def get_max(lst):
+    max_value = lst[0]
+    for n in lst:
+        if n > max_value:
+            max_value = n
+    return max_value
+
+scores = [10, 4, 2, 1, 16, 7]
+print(get_max(scores)) # 16
 
 
 # TODO 21 Write a function called longest_string(lst) that returns the longest

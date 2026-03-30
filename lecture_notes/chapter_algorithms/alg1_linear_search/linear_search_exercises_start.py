@@ -21,9 +21,8 @@
 # target to first "Alice" and then "Zara".
 
 
-# TODO 5 Write an if-statement that checks if target appears anywhere in the
-# names list. Use the in operator and print messages if it is found or not
-# found.
+# TODO 5 Re-do the previous task using so it does the same thing, but use "not
+# in" instead of "in".
 
 #
 # loops

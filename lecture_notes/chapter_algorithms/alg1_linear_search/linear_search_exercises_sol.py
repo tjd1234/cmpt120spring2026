@@ -29,13 +29,14 @@ else:
     print("Not a match.")
 
 
-# TODO 5 Write an if-statement that checks if target appears anywhere in the
-# names list. Use the in operator and print messages if it is found or not
-# found.
-if target in names:
-    print(f"{target} is in the list.")
+# TODO 5 Re-do the previous task using so it does the same thing, but use "not
+# in" instead of "in".
+names = ["Eve", "Diana", "Charlie", "Alice", "Bob"]
+target = 'Zara'
+if target not in names:
+    print('Not a match!')
 else:
-    print(f"{target} is not in the list.")
+    print('Found it!')
 
 #
 # loops
