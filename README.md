@@ -123,7 +123,7 @@ presentation.
 - Review these lecture notes: [chapter 8 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_lecture.ipynb); [practice problems](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice_sol.ipynb)); 
 [ROT13 example](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/rot13.ipynb)
 - Do this homework: [chapter 8 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8_sol.ipynb))
-- Extra practice problems: [string function practice](exams/string_fns.ipynb) ([solutions](exams/string_fns_sol.ipynb))
+- Extra practice problems: [string function practice](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/string_functions/string_fns.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/string_functions/string_fns_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
 
 ### Week 11 (Mar 16 to Mar 20)
