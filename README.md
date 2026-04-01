@@ -26,7 +26,7 @@ course is [here](https://github.com/tjd1234/cmpt120spring2026).
 ([solutions](exams/120-D400final_practice_quiz_sol.pdf)) during class.
 - [In-class final exam practice questions Fall 2024](exams/120-fall2024_microfinal.pdf) ([solutions](exams/120-fall2024_microfinal_sol.pdf))
 - [Multiple choice practice questions](exams/120_MCQ_final_sample_1.pdf) ([solutions](exams/120_MCQ_final_sample_1_sol.pdf))
-- [String function practice](exams/string_fns.ipynb) ([solutions](exams/string_fns_sol.ipynb))
+- [String function practice](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/string_functions/string_fns.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/string_functions/string_fns_sol.ipynb))
 - [Spring 2026 midterm](exams/120spring2026midterm.pdf) ([solutions](exams/120spring2026midterm_sol.pdf))
 
 Here is an [exam timer](https://tjd1234.github.io/examclock/examclock.html) that
