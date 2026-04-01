@@ -120,7 +120,8 @@ presentation.
 ### Week 10 (Mar 9 to Mar 13)
 
 - Read this textbook chapter: [chapter 8](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap08.ipynb)
-- Review these lecture notes: [chapter 8 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_lecture.ipynb); [practice problems](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice_sol.ipynb)); [ROT13 example](lecture_notes/chapter8/rot13.ipynb)
+- Review these lecture notes: [chapter 8 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_lecture.ipynb); [practice problems](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice_sol.ipynb)); 
+[ROT13 example](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter8/rot13.ipynb)
 - Do this homework: [chapter 8 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8_sol.ipynb))
 - Extra practice problems: [string function practice](exams/string_fns.ipynb) ([solutions](exams/string_fns_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
