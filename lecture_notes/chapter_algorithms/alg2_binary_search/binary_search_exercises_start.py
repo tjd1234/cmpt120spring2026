@@ -55,9 +55,9 @@
 # Test it with targets "Charlie", "Allie", and "Zara".
 
 
-# TODO 7 Re-do the previous task, but this time change elif and else parts to
-# print the slice of the list where the target might be. Specifically:
-# - if target is less than middle element, print the slice from 0 up to, but not 
+# TODO 7 Re-do the previous task, but this time change the elif and else parts
+# to print the slice of the list where the target might be. Specifically:
+# - if target is less than middle element, print the slice from 0 up to, but not
 #   including, mid
 # - if target is greater than middle element, print the slice of the list from
 #   mid + 1 to to the end
@@ -92,8 +92,8 @@
 # same). Test it with the list [] and target "Charlie".
 
 
-# TODO 11 Copy the function in the previous task and modify it so that it turns
-# True if the target is found (remove the print statement that was there
+# TODO 11 Copy the function in the previous task and modify it so that it
+# returns True if the target is found (remove the print statement that was there
 # before). Keep the rest the same. Test it with the target "Charlie" and the
 # list ["Alice", "Bob", "Charlie", "Diana", "Eve"]. It should return 2.
 
