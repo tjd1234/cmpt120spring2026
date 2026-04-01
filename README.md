@@ -131,7 +131,7 @@ presentation.
 - Read this textbook chapter: [chapter 9](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap09.ipynb)
 - Review these lecture notes: [chapter 9 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/chapter9_lecture.ipynb)
 - Do this homework: [chapter 9 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/homework9.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/homework9_sol.ipynb))
-- Extra practice problems: [list problems](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter9/chapter9_practice.ipynb) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter9/chapter9_practice_sol.ipynb)) 
+- Extra practice problems: [list problems](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/chapter9_practice.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter9/chapter9_practice_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
 
 ### Week 12 (Mar 23 to Mar 27)
