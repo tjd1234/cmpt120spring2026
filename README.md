@@ -121,7 +121,7 @@ presentation.
 
 - Read this textbook chapter: [chapter 8](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap08.ipynb)
 - Review these lecture notes: [chapter 8 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_lecture.ipynb); [practice problems](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/chapter8_practice_sol.ipynb)); 
-[ROT13 example](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter8/rot13.ipynb)
+[ROT13 example](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/rot13.ipynb)
 - Do this homework: [chapter 8 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter8/homework8_sol.ipynb))
 - Extra practice problems: [string function practice](exams/string_fns.ipynb) ([solutions](exams/string_fns_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
@@ -139,10 +139,10 @@ presentation.
 - Read this textbook chapter: [chapter 10](https://github.com/tjd1234/cmpt120spring2026/blob/main/textbook/chap10.ipynb)
 - Review these lecture notes: [chapter 10 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/chapter10_lecture.ipynb)
 - Practice problems:
-  - [basic dictionaries](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/dictionaries1_start.py) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/dictionaries1_sol.py))
-  - [reverse word counting](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/word_check_start.py) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/word_check_sol.py))
-  - [counting characters](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/counting_chars_start.py) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/counting_chars_sol.py))
-  - [counting votes](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/counting_votes_start.py) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter10/counting_votes_sol.py))
+  - [basic dictionaries](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/dictionaries1_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/dictionaries1_sol.py))
+  - [reverse word counting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/word_check_start.py) ([solutions](hhttps://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/word_check_sol.py))
+  - [counting characters](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_sol.py))
+  - [counting votes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_sol.py))
 - Do this homework: [chapter 10 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10_sol.ipynb))
 - Write the weekly Canvas quiz on Friday!
 
@@ -151,9 +151,9 @@ presentation.
 - Read this textbook chapter: **none**
 - Review these lecture notes: [linear search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search.ipynb), [binary search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search.ipynb), [sorting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting.ipynb)
 - Practice problems:
-  - [linear search](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter_algorithms/alg1_linear_search/linear_search_exercises_start.py) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter_algorithms/alg1_linear_search/linear_search_exercises_sol.py))
-  - [binary search](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_start.py) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_sol.py))
-  - [selection sort](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_start.py) ([solutions](https://tjd1234.github.io/cmpt120spring2026/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_sol.py))
+  - [linear search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/linear_search_exercises_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/linear_search_exercises_sol.py))
+  - [binary search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_sol.py))
+  - [selection sort](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_sol.py))
 - Do this homework: 
   - [linear search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework_sol.ipynb))
   - [binary search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework_sol.ipynb))
