@@ -38,4 +38,4 @@ outside any cell.
 
 - `on_click(f)`: call function `f` when the user clicks a cell
 
-See [tttDemo.py](tttDemo.py) for examples of how to use these functions.
+See [ttt_demo.py](ttt_demo.py) for examples of how to use these functions.
