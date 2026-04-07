@@ -161,12 +161,9 @@ presentation.
 ### Week 14 (Apr 6 to Apr 10)
 
 - Read this textbook chapter: **none**
-- Review these lecture notes:[sorting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting.ipynb)
-- Do this homework:
-  - [sorting homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework_sol.ipynb))
-
-- Practice problems:
-  - [selection sort](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_sol.py))
+- Review these lecture notes: [sorting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting.ipynb)
+- Do this homework: [sorting homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework_sol.ipynb))
+- Practice problems: [selection sort](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_sol.py))
 
 ### Exam Period (April 13 to April 25)
 
