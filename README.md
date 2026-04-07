@@ -149,19 +149,24 @@ presentation.
 ### Week 13 (Mar 30 to Apr 3)
 
 - Read this textbook chapter: **none**
-- Review these lecture notes: [linear search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search.ipynb), [binary search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search.ipynb), [sorting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting.ipynb)
+- Review these lecture notes: [linear search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search.ipynb), [binary search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search.ipynb)
 - Practice problems:
   - [linear search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/linear_search_exercises_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/linear_search_exercises_sol.py))
   - [binary search](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/binary_search_exercises_sol.py))
-  - [selection sort](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_sol.py))
-- Do this homework: 
+
+- Do this homework:
   - [linear search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg1_linear_search/alg1_linear_search_homework_sol.ipynb))
   - [binary search homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg2_binary_search/alg2_binary_search_homework_sol.ipynb))
-  - [sorting homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework_sol.ipynb))
 
 ### Week 14 (Apr 6 to Apr 10)
 
-- Topics to be determined.
+- Read this textbook chapter: **none**
+- Review these lecture notes:[sorting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting.ipynb)
+- Do this homework:
+  - [sorting homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/alg3_sorting_homework_sol.ipynb))
+
+- Practice problems:
+  - [selection sort](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter_algorithms/alg3_sorting/selection_sort_sol.py))
 
 ### Exam Period (April 13 to April 25)
 
