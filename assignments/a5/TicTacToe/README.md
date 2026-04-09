@@ -7,7 +7,7 @@ the user plays against the computer. See the marking scheme below for details.
 
 To use the [ttt_display](ttt_display.py) module, see
 [tttBoardDocumentation.md](tttBoardDocumentation.md) for documentation, and
-[tttDemo.py](tttDemo.py) for an example of how to run it.
+[ttt_Demo.py](ttt_Demo.py) for an example of how to run it.
 
 **Important**: Do **not** change [ttt_display.py](ttt_display.py) in any way.
 Also, do **not** import the `turtle` module into your program. You *can* import

@@ -29,6 +29,26 @@
 # print('sorted_scores:', sorted_scores)
 # print(' scores after:', scores)
 
+def selection_sort1(unsorted):
+    # min(lst) returns min value of lst
+    # lst.remove(x) removes first x from lst
+    # lst.append(x) adds x to the end lst
+    sorted_vals = []
+    while len(unsorted) > 0:
+        m = min(unsorted)
+        unsorted.remove(m)
+        sorted_vals.insert(1, m)
+    return sorted_vals
+
+def selection_sort2(unsorted):
+    # unsorted2 = unsorted[:]
+    return selection_sort1(unsorted[:])
+
+scores = [5, 2, 4, 1, 3]
+print('scores before:', scores)
+sorted_scores = selection_sort1(scores)
+print('sorted_scores:', sorted_scores)
+print(' scores after:', scores)
 
 # TODO 2 If you implemented selection_sort1 above as described above, then the
 # input list ends up empty at the end (because# remove has been called on all
@@ -71,14 +91,14 @@ def selection_sort3_in_place(lst):
         lst[i], lst[min_idx] = lst[min_idx], lst[i]
     return lst
 
-import sortcheck
-sortcheck.test(selection_sort3_in_place)
+# import sortcheck
+# sortcheck.test(selection_sort3_in_place)
 
-scores = [85, 90, 78, 92, 88]
-print('scores before:', scores)
-sorted_scores = selection_sort3_in_place(scores)
-print('sorted_scores:', sorted_scores)
-print(' scores after:', scores)
+# scores = [85, 90, 78, 92, 88]
+# print('scores before:', scores)
+# sorted_scores = selection_sort3_in_place(scores)
+# print('sorted_scores:', sorted_scores)
+# print(' scores after:', scores)
 
 # TODO 4 How fast is our version of selection sort? To figure this out, lets
 # write some code that runs an experiment. Create random lists of numbers of

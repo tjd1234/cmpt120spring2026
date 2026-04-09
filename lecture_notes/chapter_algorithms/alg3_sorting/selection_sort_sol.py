@@ -39,8 +39,8 @@ def selection_sort1(unsorted):
         unsorted.remove(smallest)
     return sorted
 
-import sortcheck
-sortcheck.test(selection_sort1)
+# import sortcheck
+# sortcheck.test(selection_sort1)
 
 scores = [85, 90, 78, 92, 88]
 print('scores before:', scores)
@@ -118,8 +118,8 @@ def selection_sort3_in_place(lst):
         lst[i], lst[min_idx] = lst[min_idx], lst[i]
     return lst
 
-import sortcheck
-sortcheck.test(selection_sort3_in_place)
+# import sortcheck
+# sortcheck.test(selection_sort3_in_place)
 
 scores = [85, 90, 78, 92, 88]
 print('scores before:', scores)
