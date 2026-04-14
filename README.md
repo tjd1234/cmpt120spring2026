@@ -28,6 +28,7 @@ course is [here](https://github.com/tjd1234/cmpt120spring2026).
 - [Multiple choice practice questions](exams/120_MCQ_final_sample_1.pdf) ([solutions](exams/120_MCQ_final_sample_1_sol.pdf))
 - [String function practice](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/string_functions/string_fns.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/string_functions/string_fns_sol.ipynb))
 - [Spring 2026 midterm](exams/120spring2026midterm.pdf) ([solutions](exams/120spring2026midterm_sol.pdf))
+- [List practice](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/practice/list_practice.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/practice/list_practice_sol.py)); [List functions](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/practice/list_functions.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/exams/practice/list_functions_sol.py))
 
 Here is an [exam timer](https://tjd1234.github.io/examclock/examclock.html) that
 shows the remaining time in an exam.
