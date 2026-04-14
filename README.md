@@ -141,7 +141,7 @@ presentation.
 - Review these lecture notes: [chapter 10 lecture notes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/chapter10_lecture.ipynb)
 - Practice problems:
   - [basic dictionaries](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/dictionaries1_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/dictionaries1_sol.py))
-  - [reverse word counting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/word_check_start.py) ([solutions](hhttps://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/word_check_sol.py))
+  - [reverse word counting](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/word_check_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/word_check_sol.py))
   - [counting characters](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_sol.py))
   - [counting votes](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_start.py) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/counting_chars_sol.py))
 - Do this homework: [chapter 10 homework](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10.ipynb) ([solutions](https://github.com/tjd1234/cmpt120spring2026/blob/main/lecture_notes/chapter10/homework10_sol.ipynb))
